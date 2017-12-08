@@ -10,7 +10,7 @@
 #import "LRItem.h"
 #import "LRReplicatorLineController.h"
 #import "LRMixedColorProgressController.h"
-
+#import "LRGlowViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -27,7 +27,8 @@
     self.title = @"LRAnimations";
     self.items = [NSMutableArray array];
     [self.items addObject:[LRItem itemWithName:@"UILabel混色显示" class:[LRMixedColorProgressController class]]];
-    [self.items addObject:[LRItem itemWithName:@"线性重复动画" class:[LRReplicatorLineController class]]];
+    [self.items addObject:[LRItem itemWithName:@"辉光动画" class:[LRGlowViewController class]]];
+    //[self.items addObject:[LRItem itemWithName:@"线性重复动画" class:[LRReplicatorLineController class]]];
     
     
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
