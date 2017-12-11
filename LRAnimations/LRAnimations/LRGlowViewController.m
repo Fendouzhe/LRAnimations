@@ -36,6 +36,26 @@
     
     CAShapeLayer *circle = [CAShapeLayer layer];
     UIBezierPath *bezierpath = [UIBezierPath bezierPathWithArcCenter:CGPointZero radius:80 startAngle:DEGRESS(0) endAngle:DEGRESS(360) clockwise:YES];
+    circle.path = bezierpath.CGPath;
+    circle.position = CGPointMake(100, 100);
+    circle.fillColor = [UIColor clearColor].CGColor;
+    circle.strokeColor = [UIColor redColor].CGColor;
+    //circle.lineDashPattern = @[@1,@5,@1,@5];
+    circle.strokeEnd = 1.0f;
+    colorLayer.mask = circle;
+    
+    _timer = [[GCDTimer alloc] initInQueue:[GCDQueue mainQueue]];
+    [_timer event:^{
+        
+        CABasicAnimation *faceAnim = [CABasicAnimation animationWithKeyPath:@"locations"];
+        faceAnim.fromValue = @[@(-0.2),@(-0.1),@(0)];
+        faceAnim.toValue = @[@(1),@(1.1),@(1.2)];
+        faceAnim.duration = 1.5;
+        [colorLayer addAnimation:faceAnim forKey:nil];
+        
+    } timeInterval:2*NSEC_PER_SEC];
+    
+    [_timer start];
 }
 
 
