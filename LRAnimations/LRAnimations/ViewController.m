@@ -11,6 +11,9 @@
 #import "LRReplicatorLineController.h"
 #import "LRMixedColorProgressController.h"
 #import "LRGlowViewController.h"
+#import "LRElectrocardiogramController.h"
+#import "LRFadeViewController.h"
+#import "LRShineLabelController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -28,6 +31,9 @@
     self.items = [NSMutableArray array];
     [self.items addObject:[LRItem itemWithName:@"UILabel混色显示" class:[LRMixedColorProgressController class]]];
     [self.items addObject:[LRItem itemWithName:@"辉光动画" class:[LRGlowViewController class]]];
+    [self.items addObject:[LRItem itemWithName:@"心电图动画" class:[LRElectrocardiogramController class]]];
+    [self.items addObject:[LRItem itemWithName:@"view的辉光效果" class:[LRFadeViewController class]]];
+    [self.items addObject:[LRItem itemWithName:@"UILabel闪耀效果" class:[LRShineLabelController class]]];
     //[self.items addObject:[LRItem itemWithName:@"线性重复动画" class:[LRReplicatorLineController class]]];
     
     

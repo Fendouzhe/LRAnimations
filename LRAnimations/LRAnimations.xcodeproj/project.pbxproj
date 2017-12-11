@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C4860931FDE3B94006C346C /* LRElectrocardiogramController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4860921FDE3B94006C346C /* LRElectrocardiogramController.m */; };
+		8C4860971FDE64AE006C346C /* LRFadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4860961FDE64AE006C346C /* LRFadeView.m */; };
+		8C48609A1FDE686E006C346C /* LRFadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4860991FDE686E006C346C /* LRFadeViewController.m */; };
+		8C48609D1FDE75BC006C346C /* LRShineLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C48609C1FDE75BC006C346C /* LRShineLabelController.m */; };
+		8C4860A11FDE762C006C346C /* LRShineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4860A01FDE762C006C346C /* LRShineLabel.m */; };
 		8C5B00491FDA6B3F003750BB /* GCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B00421FDA6B3F003750BB /* GCDGroup.m */; };
 		8C5B004A1FDA6B3F003750BB /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B00441FDA6B3F003750BB /* GCDQueue.m */; };
 		8C5B004B1FDA6B3F003750BB /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B00461FDA6B3F003750BB /* GCDSemaphore.m */; };
@@ -26,6 +31,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C4860911FDE3B94006C346C /* LRElectrocardiogramController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRElectrocardiogramController.h; sourceTree = "<group>"; };
+		8C4860921FDE3B94006C346C /* LRElectrocardiogramController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRElectrocardiogramController.m; sourceTree = "<group>"; };
+		8C4860951FDE64AE006C346C /* LRFadeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRFadeView.h; sourceTree = "<group>"; };
+		8C4860961FDE64AE006C346C /* LRFadeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRFadeView.m; sourceTree = "<group>"; };
+		8C4860981FDE686E006C346C /* LRFadeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRFadeViewController.h; sourceTree = "<group>"; };
+		8C4860991FDE686E006C346C /* LRFadeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRFadeViewController.m; sourceTree = "<group>"; };
+		8C48609B1FDE75BC006C346C /* LRShineLabelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRShineLabelController.h; sourceTree = "<group>"; };
+		8C48609C1FDE75BC006C346C /* LRShineLabelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRShineLabelController.m; sourceTree = "<group>"; };
+		8C48609F1FDE762C006C346C /* LRShineLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRShineLabel.h; sourceTree = "<group>"; };
+		8C4860A01FDE762C006C346C /* LRShineLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRShineLabel.m; sourceTree = "<group>"; };
 		8C5B00401FDA6B3F003750BB /* GCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD.h; sourceTree = "<group>"; };
 		8C5B00411FDA6B3F003750BB /* GCDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDGroup.h; sourceTree = "<group>"; };
 		8C5B00421FDA6B3F003750BB /* GCDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDGroup.m; sourceTree = "<group>"; };
@@ -71,6 +86,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C4860941FDE6478006C346C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8C5B00531FDA719D003750BB /* LRBaseViewController.h */,
+				8C5B00541FDA719D003750BB /* LRBaseViewController.m */,
+				8C5B004D1FDA6D3C003750BB /* LRMixedColorProgressController.h */,
+				8C5B004E1FDA6D3C003750BB /* LRMixedColorProgressController.m */,
+				8CB0C3451FD91A46009CB8A5 /* LRReplicatorLineController.h */,
+				8CB0C3461FD91A46009CB8A5 /* LRReplicatorLineController.m */,
+				8C5B00661FDAB491003750BB /* LRGlowViewController.h */,
+				8C5B00671FDAB491003750BB /* LRGlowViewController.m */,
+				8C4860911FDE3B94006C346C /* LRElectrocardiogramController.h */,
+				8C4860921FDE3B94006C346C /* LRElectrocardiogramController.m */,
+				8C4860981FDE686E006C346C /* LRFadeViewController.h */,
+				8C4860991FDE686E006C346C /* LRFadeViewController.m */,
+				8C48609B1FDE75BC006C346C /* LRShineLabelController.h */,
+				8C48609C1FDE75BC006C346C /* LRShineLabelController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8C48609E1FDE75C3006C346C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8C4860951FDE64AE006C346C /* LRFadeView.h */,
+				8C4860961FDE64AE006C346C /* LRFadeView.m */,
+				8C48609F1FDE762C006C346C /* LRShineLabel.h */,
+				8C4860A01FDE762C006C346C /* LRShineLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		8C5B003F1FDA6B3F003750BB /* GCD */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,14 +162,8 @@
 				8CB0C3431FD91A0B009CB8A5 /* LRItem.m */,
 				8CB0C32F1FD91991009CB8A5 /* ViewController.h */,
 				8CB0C3301FD91991009CB8A5 /* ViewController.m */,
-				8C5B00531FDA719D003750BB /* LRBaseViewController.h */,
-				8C5B00541FDA719D003750BB /* LRBaseViewController.m */,
-				8C5B004D1FDA6D3C003750BB /* LRMixedColorProgressController.h */,
-				8C5B004E1FDA6D3C003750BB /* LRMixedColorProgressController.m */,
-				8CB0C3451FD91A46009CB8A5 /* LRReplicatorLineController.h */,
-				8CB0C3461FD91A46009CB8A5 /* LRReplicatorLineController.m */,
-				8C5B00661FDAB491003750BB /* LRGlowViewController.h */,
-				8C5B00671FDAB491003750BB /* LRGlowViewController.m */,
+				8C48609E1FDE75C3006C346C /* View */,
+				8C4860941FDE6478006C346C /* Controller */,
 				8CB0C3321FD91991009CB8A5 /* Main.storyboard */,
 				8CB0C3351FD91991009CB8A5 /* Assets.xcassets */,
 				8CB0C3371FD91991009CB8A5 /* LaunchScreen.storyboard */,
@@ -213,9 +254,14 @@
 				8C5B004B1FDA6B3F003750BB /* GCDSemaphore.m in Sources */,
 				8CB0C3311FD91991009CB8A5 /* ViewController.m in Sources */,
 				8CB0C33C1FD91991009CB8A5 /* main.m in Sources */,
+				8C4860931FDE3B94006C346C /* LRElectrocardiogramController.m in Sources */,
 				8C5B00681FDAB491003750BB /* LRGlowViewController.m in Sources */,
+				8C4860971FDE64AE006C346C /* LRFadeView.m in Sources */,
+				8C48609D1FDE75BC006C346C /* LRShineLabelController.m in Sources */,
 				8C5B00521FDA6EA5003750BB /* UIView+SetRect.m in Sources */,
 				8C5B00491FDA6B3F003750BB /* GCDGroup.m in Sources */,
+				8C48609A1FDE686E006C346C /* LRFadeViewController.m in Sources */,
+				8C4860A11FDE762C006C346C /* LRShineLabel.m in Sources */,
 				8CB0C32E1FD91991009CB8A5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
