@@ -43,9 +43,10 @@
     
     CAGradientLayer *gradientLayer = [CAGradientLayer layer];
     gradientLayer.frame = frame;
+    //gradientLayer设置blackColor产生透明通道
     gradientLayer.colors = @[(__bridge id)[UIColor clearColor].CGColor,
-                             (__bridge id)[UIColor blackColor].CGColor,
-                             (__bridge id)[UIColor blackColor].CGColor,
+                             (__bridge id)[UIColor blackColor].CGColor,//黑色会透明显示底部self.label的颜色
+                             (__bridge id)[UIColor blackColor].CGColor,//黑色会透明显示底部self.label的颜色
                              (__bridge id)[UIColor clearColor].CGColor];
     gradientLayer.locations = @[@(0.01),@(0.2),@(0.4),@(0.59)];
     gradientLayer.startPoint = CGPointMake(0, 0);

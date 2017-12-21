@@ -14,6 +14,7 @@
 #import "LRElectrocardiogramController.h"
 #import "LRFadeViewController.h"
 #import "LRShineLabelController.h"
+#import "LRTransitionPushController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -34,6 +35,7 @@
     [self.items addObject:[LRItem itemWithName:@"心电图动画" class:[LRElectrocardiogramController class]]];
     [self.items addObject:[LRItem itemWithName:@"view的辉光效果" class:[LRFadeViewController class]]];
     [self.items addObject:[LRItem itemWithName:@"UILabel闪耀效果" class:[LRShineLabelController class]]];
+    [self.items addObject:[LRItem itemWithName:@"控制器转场动画" class:[LRTransitionPushController class]]];
     //[self.items addObject:[LRItem itemWithName:@"线性重复动画" class:[LRReplicatorLineController class]]];
     
     
