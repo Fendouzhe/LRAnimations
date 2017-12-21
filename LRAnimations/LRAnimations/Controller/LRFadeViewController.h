@@ -2,8 +2,8 @@
 //  LRFadeViewController.h
 //  LRAnimations
 //
-//  Created by 宇中 on 2017/12/11.
-//  Copyright © 2017年 广州宇中网络科技有限公司. All rights reserved.
+//  Created by LeiLuRong on 2017/12/11.
+//  Copyright © 2017年 LeiLuRong. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

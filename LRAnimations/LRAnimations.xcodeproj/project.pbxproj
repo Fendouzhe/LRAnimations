@@ -24,6 +24,7 @@
 		8C6D21741FEA5B5300FB7664 /* LRTransitionPopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D21731FEA5B5300FB7664 /* LRTransitionPopController.m */; };
 		8C6D21771FEA5C1D00FB7664 /* LRTranstionAnimationPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D21761FEA5C1D00FB7664 /* LRTranstionAnimationPush.m */; };
 		8C6D217A1FEA5C2900FB7664 /* LRTranstionAnimationPop.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D21791FEA5C2900FB7664 /* LRTranstionAnimationPop.m */; };
+		8C7A69A21FEB95840043733F /* LRProgressColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A69A11FEB95840043733F /* LRProgressColor.m */; };
 		8CB0C32E1FD91991009CB8A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0C32D1FD91991009CB8A5 /* AppDelegate.m */; };
 		8CB0C3311FD91991009CB8A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0C3301FD91991009CB8A5 /* ViewController.m */; };
 		8CB0C3341FD91991009CB8A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0C3321FD91991009CB8A5 /* Main.storyboard */; };
@@ -70,6 +71,8 @@
 		8C6D21761FEA5C1D00FB7664 /* LRTranstionAnimationPush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRTranstionAnimationPush.m; sourceTree = "<group>"; };
 		8C6D21781FEA5C2900FB7664 /* LRTranstionAnimationPop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRTranstionAnimationPop.h; sourceTree = "<group>"; };
 		8C6D21791FEA5C2900FB7664 /* LRTranstionAnimationPop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRTranstionAnimationPop.m; sourceTree = "<group>"; };
+		8C7A69A01FEB95840043733F /* LRProgressColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRProgressColor.h; sourceTree = "<group>"; };
+		8C7A69A11FEB95840043733F /* LRProgressColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRProgressColor.m; sourceTree = "<group>"; };
 		8CB0C3291FD91991009CB8A5 /* LRAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB0C32C1FD91991009CB8A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8CB0C32D1FD91991009CB8A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -157,6 +160,8 @@
 				8C6D21761FEA5C1D00FB7664 /* LRTranstionAnimationPush.m */,
 				8C6D21781FEA5C2900FB7664 /* LRTranstionAnimationPop.h */,
 				8C6D21791FEA5C2900FB7664 /* LRTranstionAnimationPop.m */,
+				8C7A69A01FEB95840043733F /* LRProgressColor.h */,
+				8C7A69A11FEB95840043733F /* LRProgressColor.m */,
 			);
 			path = Server;
 			sourceTree = "<group>";
@@ -229,7 +234,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "广州宇中网络科技有限公司";
+				ORGANIZATIONNAME = LeiLuRong;
 				TargetAttributes = {
 					8CB0C3281FD91991009CB8A5 = {
 						CreatedOnToolsVersion = 9.0.1;
@@ -295,6 +300,7 @@
 				8C48609A1FDE686E006C346C /* LRFadeViewController.m in Sources */,
 				8C4860A11FDE762C006C346C /* LRShineLabel.m in Sources */,
 				8CB0C32E1FD91991009CB8A5 /* AppDelegate.m in Sources */,
+				8C7A69A21FEB95840043733F /* LRProgressColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +440,7 @@
 				INFOPLIST_FILE = LRAnimations/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shuangkuai.LRAnimations;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeiLuRong.LRAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,7 +456,7 @@
 				INFOPLIST_FILE = LRAnimations/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shuangkuai.LRAnimations;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeiLuRong.LRAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
