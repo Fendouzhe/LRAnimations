@@ -16,6 +16,7 @@
 #import "LRShineLabelController.h"
 #import "LRTransitionPushController.h"
 #import "LRColorProgressController.h"
+#import "LRMulticolorViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -35,6 +36,7 @@
     [self.items addObject:[LRItem itemWithName:@"辉光动画" class:[LRGlowViewController class]]];
     [self.items addObject:[LRItem itemWithName:@"心电图动画" class:[LRElectrocardiogramController class]]];
     [self.items addObject:[LRItem itemWithName:@"view的辉光效果" class:[LRFadeViewController class]]];
+    [self.items addObject:[LRItem itemWithName:@"绚丽彩色圆弧" class:[LRMulticolorViewController class]]];
     [self.items addObject:[LRItem itemWithName:@"UILabel闪耀效果" class:[LRShineLabelController class]]];
     [self.items addObject:[LRItem itemWithName:@"控制器转场动画" class:[LRTransitionPushController class]]];
     [self.items addObject:[LRItem itemWithName:@"彩色进度条" class:[LRColorProgressController class]]];
