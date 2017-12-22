@@ -2,13 +2,16 @@
 //  LRColorImageViewController.m
 //  LRAnimations
 //
-//  Created by 宇中 on 2017/12/22.
+//  Created by LeiLuRong on 2017/12/22.
 //  Copyright © 2017年 LeiLuRong. All rights reserved.
 //
 
 #import "LRColorImageViewController.h"
+#import "LRColorUIImageView.h"
 
 @interface LRColorImageViewController ()
+
+@property (nonatomic, strong) LRColorUIImageView *colorView;
 
 @end
 
@@ -16,22 +19,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.colorView        = [[LRColorUIImageView alloc] initWithFrame:self.view.bounds];
+    self.colorView.center = self.view.center;
+    self.colorView.image  = [UIImage imageNamed:@"bg"];
+    [self.view addSubview:self.colorView];
+    
+    [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(event) userInfo:nil repeats:YES];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)event {
+    self.colorView.direction = UP;
+    self.colorView.color     = [UIColor cyanColor];
+    self.colorView.percent   = arc4random()%100/100.f;//0.5;
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

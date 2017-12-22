@@ -17,6 +17,8 @@
 #import "LRTransitionPushController.h"
 #import "LRColorProgressController.h"
 #import "LRMulticolorViewController.h"
+#import "LRColorImageViewController.h"
+#import "LRChangeImageController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -40,6 +42,8 @@
     [self.items addObject:[LRItem itemWithName:@"UILabel闪耀效果" class:[LRShineLabelController class]]];
     [self.items addObject:[LRItem itemWithName:@"控制器转场动画" class:[LRTransitionPushController class]]];
     [self.items addObject:[LRItem itemWithName:@"彩色进度条" class:[LRColorProgressController class]]];
+    [self.items addObject:[LRItem itemWithName:@"图片带色差动画" class:[LRColorImageViewController class]]];
+    [self.items addObject:[LRItem itemWithName:@"带色差切换图片" class:[LRChangeImageController class]]];
     //[self.items addObject:[LRItem itemWithName:@"线性重复动画" class:[LRReplicatorLineController class]]];
     
     
@@ -80,10 +84,5 @@
     vc.title = item.name;
     [self.navigationController pushViewController:vc animated:YES];
 }
-
-
-
-
-
 
 @end

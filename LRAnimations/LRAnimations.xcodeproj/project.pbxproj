@@ -37,6 +37,9 @@
 		8CB0C3391FD91991009CB8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0C3371FD91991009CB8A5 /* LaunchScreen.storyboard */; };
 		8CB0C33C1FD91991009CB8A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0C33B1FD91991009CB8A5 /* main.m */; };
 		8CB0C3471FD91A46009CB8A5 /* LRReplicatorLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0C3461FD91A46009CB8A5 /* LRReplicatorLineController.m */; };
+		8CD0F3BC1FED044A002B1758 /* LRColorUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0F3BB1FED044A002B1758 /* LRColorUIImageView.m */; };
+		8CD0F3BF1FED04EE002B1758 /* LRColorImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0F3BE1FED04EE002B1758 /* LRColorImageViewController.m */; };
+		8CD0F3C21FED07B4002B1758 /* LRChangeImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0F3C11FED07B4002B1758 /* LRChangeImageController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +103,12 @@
 		8CB0C3451FD91A46009CB8A5 /* LRReplicatorLineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRReplicatorLineController.h; sourceTree = "<group>"; };
 		8CB0C3461FD91A46009CB8A5 /* LRReplicatorLineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRReplicatorLineController.m; sourceTree = "<group>"; };
 		8CB0C3481FD9226C009CB8A5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8CD0F3BA1FED044A002B1758 /* LRColorUIImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRColorUIImageView.h; sourceTree = "<group>"; };
+		8CD0F3BB1FED044A002B1758 /* LRColorUIImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRColorUIImageView.m; sourceTree = "<group>"; };
+		8CD0F3BD1FED04EE002B1758 /* LRColorImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRColorImageViewController.h; sourceTree = "<group>"; };
+		8CD0F3BE1FED04EE002B1758 /* LRColorImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRColorImageViewController.m; sourceTree = "<group>"; };
+		8CD0F3C01FED07B4002B1758 /* LRChangeImageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRChangeImageController.h; sourceTree = "<group>"; };
+		8CD0F3C11FED07B4002B1758 /* LRChangeImageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRChangeImageController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +149,10 @@
 				8C7A69A41FEB99B10043733F /* LRColorProgressController.m */,
 				8C5B47781FECC22400DDAF71 /* LRMulticolorViewController.h */,
 				8C5B47791FECC22400DDAF71 /* LRMulticolorViewController.m */,
+				8CD0F3BD1FED04EE002B1758 /* LRColorImageViewController.h */,
+				8CD0F3BE1FED04EE002B1758 /* LRColorImageViewController.m */,
+				8CD0F3C01FED07B4002B1758 /* LRChangeImageController.h */,
+				8CD0F3C11FED07B4002B1758 /* LRChangeImageController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -155,6 +168,8 @@
 				8C7A69AA1FEBA1510043733F /* LRColorFullProgressView.m */,
 				8C5B47751FECC11F00DDAF71 /* LRMulticolorView.h */,
 				8C5B47761FECC11F00DDAF71 /* LRMulticolorView.m */,
+				8CD0F3BA1FED044A002B1758 /* LRColorUIImageView.h */,
+				8CD0F3BB1FED044A002B1758 /* LRColorUIImageView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -306,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CD0F3BC1FED044A002B1758 /* LRColorUIImageView.m in Sources */,
 				8C5B47771FECC11F00DDAF71 /* LRMulticolorView.m in Sources */,
 				8C5B004C1FDA6B3F003750BB /* GCDTimer.m in Sources */,
 				8C5B00551FDA719D003750BB /* LRBaseViewController.m in Sources */,
@@ -317,10 +333,12 @@
 				8C6D217A1FEA5C2900FB7664 /* LRTranstionAnimationPop.m in Sources */,
 				8C6D21741FEA5B5300FB7664 /* LRTransitionPopController.m in Sources */,
 				8C5B476E1FECBA7D00DDAF71 /* UIView+SetRect.m in Sources */,
+				8CD0F3C21FED07B4002B1758 /* LRChangeImageController.m in Sources */,
 				8C5B004F1FDA6D3C003750BB /* LRMixedColorProgressController.m in Sources */,
 				8C5B004B1FDA6B3F003750BB /* GCDSemaphore.m in Sources */,
 				8C7A69A51FEB99B10043733F /* LRColorProgressController.m in Sources */,
 				8CB0C33C1FD91991009CB8A5 /* main.m in Sources */,
+				8CD0F3BF1FED04EE002B1758 /* LRColorImageViewController.m in Sources */,
 				8C4860931FDE3B94006C346C /* LRElectrocardiogramController.m in Sources */,
 				8C5B00681FDAB491003750BB /* LRGlowViewController.m in Sources */,
 				8C4860971FDE64AE006C346C /* LRFadeView.m in Sources */,

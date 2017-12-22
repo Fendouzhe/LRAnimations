@@ -2,7 +2,7 @@
 //  LRMulticolorViewController.m
 //  LRAnimations
 //
-//  Created by 宇中 on 2017/12/22.
+//  Created by LeiLuRong on 2017/12/22.
 //  Copyright © 2017年 LeiLuRong. All rights reserved.
 //
 
@@ -24,7 +24,7 @@
     
     self.view.backgroundColor = [UIColor blackColor];
     
-    // _showView1
+    // _showView0
     _showView0           = [[LRMulticolorView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
     _showView0.lineWidth = 6.f;
     _showView0.sec       = 2.f;
@@ -32,11 +32,6 @@
                             (id)[UIColor yellowColor].CGColor,
                             (id)[UIColor cyanColor].CGColor];
     _showView0.center    = CGPointMake(self.view.center.x, 200);
-    _timer              = [NSTimer scheduledTimerWithTimeInterval:1
-                                                           target:self
-                                                         selector:@selector(event:)
-                                                         userInfo:nil
-                                                          repeats:YES];
     [self.view addSubview:_showView0];
     [_showView0 startAnimation];
     
@@ -49,13 +44,15 @@
                              (id)[UIColor cyanColor].CGColor];
     _showView1.center    = CGPointMake(self.view.center.x, 400);
     _showView1.lineDashPattern = @[@10, @10];
-    _timer              = [NSTimer scheduledTimerWithTimeInterval:1
+    [self.view addSubview:_showView1];
+    [_showView1 startAnimation];
+    
+    // _timer
+    _timer               = [NSTimer scheduledTimerWithTimeInterval:1
                                                            target:self
                                                          selector:@selector(event:)
                                                          userInfo:nil
                                                           repeats:YES];
-    [self.view addSubview:_showView1];
-    [_showView1 startAnimation];
     
 }
 
