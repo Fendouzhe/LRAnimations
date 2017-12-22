@@ -15,6 +15,7 @@
 #import "LRFadeViewController.h"
 #import "LRShineLabelController.h"
 #import "LRTransitionPushController.h"
+#import "LRColorProgressController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -36,6 +37,7 @@
     [self.items addObject:[LRItem itemWithName:@"view的辉光效果" class:[LRFadeViewController class]]];
     [self.items addObject:[LRItem itemWithName:@"UILabel闪耀效果" class:[LRShineLabelController class]]];
     [self.items addObject:[LRItem itemWithName:@"控制器转场动画" class:[LRTransitionPushController class]]];
+    [self.items addObject:[LRItem itemWithName:@"彩色进度条" class:[LRColorProgressController class]]];
     //[self.items addObject:[LRItem itemWithName:@"线性重复动画" class:[LRReplicatorLineController class]]];
     
     
@@ -48,6 +50,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
     return self.items.count;
 }
 
@@ -69,6 +72,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
     LRItem *item = self.items[indexPath.row];
     UIViewController *vc = [[item.clas alloc] init];
     vc.title = item.name;

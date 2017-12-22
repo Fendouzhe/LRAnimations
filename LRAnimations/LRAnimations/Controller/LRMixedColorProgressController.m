@@ -99,9 +99,11 @@
     _timer = [[GCDTimer alloc] initInQueue:[GCDQueue mainQueue]];
     __weak typeof(self) weakSelf = self;
     [_timer event:^{
+        
+        __strong typeof(weakSelf) strongSelf = weakSelf;
         [UIView animateWithDuration:0.5f delay:0.f usingSpringWithDamping:3.f initialSpringVelocity:0 options:0 animations:^{
             
-            weakSelf.upView.width = arc4random()%220*LayoutMath;
+            strongSelf.upView.width = arc4random()%220*LayoutMath;
             
         } completion:^(BOOL finished) {
             
