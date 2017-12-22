@@ -39,13 +39,13 @@
      */
     
     // progressView0
-    self.progressView0 = [LRColorFullProgressView colorfulProgressViewWithFrame:CGRectMake(0, 160, self.view.width, 2.5)
+    self.progressView0 = [LRColorFullProgressView colorfulProgressViewWithFrame:CGRectMake(0, 160, self.view.width, 2.f)
                                                                   progressColor:nil];
     
     [self.view addSubview:self.progressView0];
     
     // progressView1
-    self.progressView1 = [LRColorFullProgressView colorfulProgressViewWithFrame:CGRectMake(0, 180, self.view.width, 2.5)
+    self.progressView1 = [LRColorFullProgressView colorfulProgressViewWithFrame:CGRectMake(0, 180, self.view.width, 2.f)
                                                                   progressColor:[LRProgressColor redGradientColor]];
     
     [self.view addSubview:self.progressView1];

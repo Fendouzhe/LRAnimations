@@ -17,9 +17,11 @@
 		8C5B004B1FDA6B3F003750BB /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B00461FDA6B3F003750BB /* GCDSemaphore.m */; };
 		8C5B004C1FDA6B3F003750BB /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B00481FDA6B3F003750BB /* GCDTimer.m */; };
 		8C5B004F1FDA6D3C003750BB /* LRMixedColorProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B004E1FDA6D3C003750BB /* LRMixedColorProgressController.m */; };
-		8C5B00521FDA6EA5003750BB /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B00511FDA6EA5003750BB /* UIView+SetRect.m */; };
 		8C5B00551FDA719D003750BB /* LRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B00541FDA719D003750BB /* LRBaseViewController.m */; };
 		8C5B00681FDAB491003750BB /* LRGlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B00671FDAB491003750BB /* LRGlowViewController.m */; };
+		8C5B476E1FECBA7D00DDAF71 /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B476D1FECBA7C00DDAF71 /* UIView+SetRect.m */; };
+		8C5B47711FECBA9000DDAF71 /* LRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B47701FECBA8F00DDAF71 /* LRItem.m */; };
+		8C5B47741FECBAE000DDAF71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B47721FECBAE000DDAF71 /* ViewController.m */; };
 		8C6D21711FEA5B3C00FB7664 /* LRTransitionPushController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D21701FEA5B3C00FB7664 /* LRTransitionPushController.m */; };
 		8C6D21741FEA5B5300FB7664 /* LRTransitionPopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D21731FEA5B5300FB7664 /* LRTransitionPopController.m */; };
 		8C6D21771FEA5C1D00FB7664 /* LRTranstionAnimationPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D21761FEA5C1D00FB7664 /* LRTranstionAnimationPush.m */; };
@@ -28,12 +30,10 @@
 		8C7A69A51FEB99B10043733F /* LRColorProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A69A41FEB99B10043733F /* LRColorProgressController.m */; };
 		8C7A69AB1FEBA1510043733F /* LRColorFullProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A69AA1FEBA1510043733F /* LRColorFullProgressView.m */; };
 		8CB0C32E1FD91991009CB8A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0C32D1FD91991009CB8A5 /* AppDelegate.m */; };
-		8CB0C3311FD91991009CB8A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0C3301FD91991009CB8A5 /* ViewController.m */; };
 		8CB0C3341FD91991009CB8A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0C3321FD91991009CB8A5 /* Main.storyboard */; };
 		8CB0C3361FD91991009CB8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0C3351FD91991009CB8A5 /* Assets.xcassets */; };
 		8CB0C3391FD91991009CB8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0C3371FD91991009CB8A5 /* LaunchScreen.storyboard */; };
 		8CB0C33C1FD91991009CB8A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0C33B1FD91991009CB8A5 /* main.m */; };
-		8CB0C3441FD91A0B009CB8A5 /* LRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0C3431FD91A0B009CB8A5 /* LRItem.m */; };
 		8CB0C3471FD91A46009CB8A5 /* LRReplicatorLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0C3461FD91A46009CB8A5 /* LRReplicatorLineController.m */; };
 /* End PBXBuildFile section */
 
@@ -59,12 +59,16 @@
 		8C5B00481FDA6B3F003750BB /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
 		8C5B004D1FDA6D3C003750BB /* LRMixedColorProgressController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRMixedColorProgressController.h; sourceTree = "<group>"; };
 		8C5B004E1FDA6D3C003750BB /* LRMixedColorProgressController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRMixedColorProgressController.m; sourceTree = "<group>"; };
-		8C5B00501FDA6EA5003750BB /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
-		8C5B00511FDA6EA5003750BB /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
 		8C5B00531FDA719D003750BB /* LRBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRBaseViewController.h; sourceTree = "<group>"; };
 		8C5B00541FDA719D003750BB /* LRBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRBaseViewController.m; sourceTree = "<group>"; };
 		8C5B00661FDAB491003750BB /* LRGlowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRGlowViewController.h; sourceTree = "<group>"; };
 		8C5B00671FDAB491003750BB /* LRGlowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRGlowViewController.m; sourceTree = "<group>"; };
+		8C5B476C1FECBA7C00DDAF71 /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
+		8C5B476D1FECBA7C00DDAF71 /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
+		8C5B476F1FECBA8F00DDAF71 /* LRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRItem.h; sourceTree = "<group>"; };
+		8C5B47701FECBA8F00DDAF71 /* LRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRItem.m; sourceTree = "<group>"; };
+		8C5B47721FECBAE000DDAF71 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C5B47731FECBAE000DDAF71 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8C6D216F1FEA5B3C00FB7664 /* LRTransitionPushController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRTransitionPushController.h; sourceTree = "<group>"; };
 		8C6D21701FEA5B3C00FB7664 /* LRTransitionPushController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRTransitionPushController.m; sourceTree = "<group>"; };
 		8C6D21721FEA5B5300FB7664 /* LRTransitionPopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRTransitionPopController.h; sourceTree = "<group>"; };
@@ -82,15 +86,11 @@
 		8CB0C3291FD91991009CB8A5 /* LRAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB0C32C1FD91991009CB8A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8CB0C32D1FD91991009CB8A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8CB0C32F1FD91991009CB8A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8CB0C3301FD91991009CB8A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8CB0C3331FD91991009CB8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CB0C3351FD91991009CB8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CB0C3381FD91991009CB8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CB0C33A1FD91991009CB8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CB0C33B1FD91991009CB8A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8CB0C3421FD91A0B009CB8A5 /* LRItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRItem.h; sourceTree = "<group>"; };
-		8CB0C3431FD91A0B009CB8A5 /* LRItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRItem.m; sourceTree = "<group>"; };
 		8CB0C3451FD91A46009CB8A5 /* LRReplicatorLineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRReplicatorLineController.h; sourceTree = "<group>"; };
 		8CB0C3461FD91A46009CB8A5 /* LRReplicatorLineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRReplicatorLineController.m; sourceTree = "<group>"; };
 		8CB0C3481FD9226C009CB8A5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -110,6 +110,8 @@
 		8C4860941FDE6478006C346C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8C5B47731FECBAE000DDAF71 /* ViewController.h */,
+				8C5B47721FECBAE000DDAF71 /* ViewController.m */,
 				8C5B00531FDA719D003750BB /* LRBaseViewController.h */,
 				8C5B00541FDA719D003750BB /* LRBaseViewController.m */,
 				8C5B004D1FDA6D3C003750BB /* LRMixedColorProgressController.h */,
@@ -163,9 +165,20 @@
 			path = GCD;
 			sourceTree = "<group>";
 		};
+		8C5B476B1FECBA7C00DDAF71 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8C5B476C1FECBA7C00DDAF71 /* UIView+SetRect.h */,
+				8C5B476D1FECBA7C00DDAF71 /* UIView+SetRect.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		8C6D217B1FEA5C3A00FB7664 /* Server */ = {
 			isa = PBXGroup;
 			children = (
+				8C5B476F1FECBA8F00DDAF71 /* LRItem.h */,
+				8C5B47701FECBA8F00DDAF71 /* LRItem.m */,
 				8C6D21751FEA5C1D00FB7664 /* LRTranstionAnimationPush.h */,
 				8C6D21761FEA5C1D00FB7664 /* LRTranstionAnimationPush.m */,
 				8C6D21781FEA5C2900FB7664 /* LRTranstionAnimationPop.h */,
@@ -195,18 +208,13 @@
 		8CB0C32B1FD91991009CB8A5 /* LRAnimations */ = {
 			isa = PBXGroup;
 			children = (
-				8C5B00501FDA6EA5003750BB /* UIView+SetRect.h */,
-				8C5B00511FDA6EA5003750BB /* UIView+SetRect.m */,
-				8C5B003F1FDA6B3F003750BB /* GCD */,
 				8CB0C32C1FD91991009CB8A5 /* AppDelegate.h */,
 				8CB0C32D1FD91991009CB8A5 /* AppDelegate.m */,
-				8CB0C3421FD91A0B009CB8A5 /* LRItem.h */,
-				8CB0C3431FD91A0B009CB8A5 /* LRItem.m */,
-				8CB0C32F1FD91991009CB8A5 /* ViewController.h */,
-				8CB0C3301FD91991009CB8A5 /* ViewController.m */,
-				8C6D217B1FEA5C3A00FB7664 /* Server */,
-				8C48609E1FDE75C3006C346C /* View */,
 				8C4860941FDE6478006C346C /* Controller */,
+				8C48609E1FDE75C3006C346C /* View */,
+				8C5B476B1FECBA7C00DDAF71 /* Category */,
+				8C5B003F1FDA6B3F003750BB /* GCD */,
+				8C6D217B1FEA5C3A00FB7664 /* Server */,
 				8CB0C3321FD91991009CB8A5 /* Main.storyboard */,
 				8CB0C3351FD91991009CB8A5 /* Assets.xcassets */,
 				8CB0C3371FD91991009CB8A5 /* LaunchScreen.storyboard */,
@@ -292,27 +300,27 @@
 				8C5B00551FDA719D003750BB /* LRBaseViewController.m in Sources */,
 				8C6D21711FEA5B3C00FB7664 /* LRTransitionPushController.m in Sources */,
 				8C6D21771FEA5C1D00FB7664 /* LRTranstionAnimationPush.m in Sources */,
-				8CB0C3441FD91A0B009CB8A5 /* LRItem.m in Sources */,
 				8CB0C3471FD91A46009CB8A5 /* LRReplicatorLineController.m in Sources */,
 				8C5B004A1FDA6B3F003750BB /* GCDQueue.m in Sources */,
 				8C6D217A1FEA5C2900FB7664 /* LRTranstionAnimationPop.m in Sources */,
 				8C6D21741FEA5B5300FB7664 /* LRTransitionPopController.m in Sources */,
+				8C5B476E1FECBA7D00DDAF71 /* UIView+SetRect.m in Sources */,
 				8C5B004F1FDA6D3C003750BB /* LRMixedColorProgressController.m in Sources */,
 				8C5B004B1FDA6B3F003750BB /* GCDSemaphore.m in Sources */,
-				8CB0C3311FD91991009CB8A5 /* ViewController.m in Sources */,
 				8C7A69A51FEB99B10043733F /* LRColorProgressController.m in Sources */,
 				8CB0C33C1FD91991009CB8A5 /* main.m in Sources */,
 				8C4860931FDE3B94006C346C /* LRElectrocardiogramController.m in Sources */,
 				8C5B00681FDAB491003750BB /* LRGlowViewController.m in Sources */,
 				8C4860971FDE64AE006C346C /* LRFadeView.m in Sources */,
 				8C48609D1FDE75BC006C346C /* LRShineLabelController.m in Sources */,
-				8C5B00521FDA6EA5003750BB /* UIView+SetRect.m in Sources */,
 				8C5B00491FDA6B3F003750BB /* GCDGroup.m in Sources */,
+				8C5B47711FECBA9000DDAF71 /* LRItem.m in Sources */,
 				8C48609A1FDE686E006C346C /* LRFadeViewController.m in Sources */,
 				8C4860A11FDE762C006C346C /* LRShineLabel.m in Sources */,
 				8C7A69AB1FEBA1510043733F /* LRColorFullProgressView.m in Sources */,
 				8CB0C32E1FD91991009CB8A5 /* AppDelegate.m in Sources */,
 				8C7A69A21FEB95840043733F /* LRProgressColor.m in Sources */,
+				8C5B47741FECBAE000DDAF71 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
