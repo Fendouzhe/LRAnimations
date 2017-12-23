@@ -19,6 +19,7 @@
 #import "LRMulticolorViewController.h"
 #import "LRColorImageViewController.h"
 #import "LRChangeImageController.h"
+#import "LREmitterSnowController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -44,6 +45,7 @@
     [self.items addObject:[LRItem itemWithName:@"彩色进度条" class:[LRColorProgressController class]]];
     [self.items addObject:[LRItem itemWithName:@"图片带色差动画" class:[LRColorImageViewController class]]];
     [self.items addObject:[LRItem itemWithName:@"带色差切换图片" class:[LRChangeImageController class]]];
+    [self.items addObject:[LRItem itemWithName:@"粒子动画雪花效果" class:[LREmitterSnowController class]]];
     //[self.items addObject:[LRItem itemWithName:@"线性重复动画" class:[LRReplicatorLineController class]]];
     
     

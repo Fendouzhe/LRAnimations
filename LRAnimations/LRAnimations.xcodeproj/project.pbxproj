@@ -40,6 +40,7 @@
 		8CD0F3BC1FED044A002B1758 /* LRColorUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0F3BB1FED044A002B1758 /* LRColorUIImageView.m */; };
 		8CD0F3BF1FED04EE002B1758 /* LRColorImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0F3BE1FED04EE002B1758 /* LRColorImageViewController.m */; };
 		8CD0F3C21FED07B4002B1758 /* LRChangeImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0F3C11FED07B4002B1758 /* LRChangeImageController.m */; };
+		A080F7301FEE253F00DBDB55 /* LREmitterSnowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A080F72F1FEE253F00DBDB55 /* LREmitterSnowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -109,6 +110,8 @@
 		8CD0F3BE1FED04EE002B1758 /* LRColorImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRColorImageViewController.m; sourceTree = "<group>"; };
 		8CD0F3C01FED07B4002B1758 /* LRChangeImageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRChangeImageController.h; sourceTree = "<group>"; };
 		8CD0F3C11FED07B4002B1758 /* LRChangeImageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRChangeImageController.m; sourceTree = "<group>"; };
+		A080F72E1FEE253F00DBDB55 /* LREmitterSnowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LREmitterSnowController.h; sourceTree = "<group>"; };
+		A080F72F1FEE253F00DBDB55 /* LREmitterSnowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LREmitterSnowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,8 @@
 				8CD0F3BE1FED04EE002B1758 /* LRColorImageViewController.m */,
 				8CD0F3C01FED07B4002B1758 /* LRChangeImageController.h */,
 				8CD0F3C11FED07B4002B1758 /* LRChangeImageController.m */,
+				A080F72E1FEE253F00DBDB55 /* LREmitterSnowController.h */,
+				A080F72F1FEE253F00DBDB55 /* LREmitterSnowController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -345,6 +350,7 @@
 				8C48609D1FDE75BC006C346C /* LRShineLabelController.m in Sources */,
 				8C5B00491FDA6B3F003750BB /* GCDGroup.m in Sources */,
 				8C5B47711FECBA9000DDAF71 /* LRItem.m in Sources */,
+				A080F7301FEE253F00DBDB55 /* LREmitterSnowController.m in Sources */,
 				8C48609A1FDE686E006C346C /* LRFadeViewController.m in Sources */,
 				8C4860A11FDE762C006C346C /* LRShineLabel.m in Sources */,
 				8C7A69AB1FEBA1510043733F /* LRColorFullProgressView.m in Sources */,
