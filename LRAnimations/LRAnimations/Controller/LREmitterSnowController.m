@@ -45,6 +45,7 @@
     
     // 粒子参数的速度乘数因子
     snowflake.birthRate = 20.0;
+    // 粒子生命周期
     snowflake.lifetime  = 120.0;
     
     // 粒子速度
