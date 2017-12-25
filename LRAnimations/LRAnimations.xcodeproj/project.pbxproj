@@ -31,6 +31,8 @@
 		8C7A69A21FEB95840043733F /* LRProgressColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A69A11FEB95840043733F /* LRProgressColor.m */; };
 		8C7A69A51FEB99B10043733F /* LRColorProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A69A41FEB99B10043733F /* LRColorProgressController.m */; };
 		8C7A69AB1FEBA1510043733F /* LRColorFullProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A69AA1FEBA1510043733F /* LRColorFullProgressView.m */; };
+		8CA404881FF109B8006143C1 /* UIView+GlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA404871FF109B8006143C1 /* UIView+GlowView.m */; };
+		8CA4048B1FF10A20006143C1 /* LRGlowContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4048A1FF10A20006143C1 /* LRGlowContentController.m */; };
 		8CB0C32E1FD91991009CB8A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0C32D1FD91991009CB8A5 /* AppDelegate.m */; };
 		8CB0C3341FD91991009CB8A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0C3321FD91991009CB8A5 /* Main.storyboard */; };
 		8CB0C3361FD91991009CB8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0C3351FD91991009CB8A5 /* Assets.xcassets */; };
@@ -93,6 +95,10 @@
 		8C7A69A41FEB99B10043733F /* LRColorProgressController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRColorProgressController.m; sourceTree = "<group>"; };
 		8C7A69A91FEBA1510043733F /* LRColorFullProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRColorFullProgressView.h; sourceTree = "<group>"; };
 		8C7A69AA1FEBA1510043733F /* LRColorFullProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRColorFullProgressView.m; sourceTree = "<group>"; };
+		8CA404861FF109B8006143C1 /* UIView+GlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GlowView.h"; sourceTree = "<group>"; };
+		8CA404871FF109B8006143C1 /* UIView+GlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GlowView.m"; sourceTree = "<group>"; };
+		8CA404891FF10A20006143C1 /* LRGlowContentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRGlowContentController.h; sourceTree = "<group>"; };
+		8CA4048A1FF10A20006143C1 /* LRGlowContentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRGlowContentController.m; sourceTree = "<group>"; };
 		8CB0C3291FD91991009CB8A5 /* LRAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB0C32C1FD91991009CB8A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8CB0C32D1FD91991009CB8A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -158,6 +164,8 @@
 				8CD0F3C11FED07B4002B1758 /* LRChangeImageController.m */,
 				A080F72E1FEE253F00DBDB55 /* LREmitterSnowController.h */,
 				A080F72F1FEE253F00DBDB55 /* LREmitterSnowController.m */,
+				8CA404891FF10A20006143C1 /* LRGlowContentController.h */,
+				8CA4048A1FF10A20006143C1 /* LRGlowContentController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -200,6 +208,8 @@
 			children = (
 				8C5B476C1FECBA7C00DDAF71 /* UIView+SetRect.h */,
 				8C5B476D1FECBA7C00DDAF71 /* UIView+SetRect.m */,
+				8CA404861FF109B8006143C1 /* UIView+GlowView.h */,
+				8CA404871FF109B8006143C1 /* UIView+GlowView.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -330,6 +340,7 @@
 				8C5B47771FECC11F00DDAF71 /* LRMulticolorView.m in Sources */,
 				8C5B004C1FDA6B3F003750BB /* GCDTimer.m in Sources */,
 				8C5B00551FDA719D003750BB /* LRBaseViewController.m in Sources */,
+				8CA404881FF109B8006143C1 /* UIView+GlowView.m in Sources */,
 				8C5B477A1FECC22400DDAF71 /* LRMulticolorViewController.m in Sources */,
 				8C6D21711FEA5B3C00FB7664 /* LRTransitionPushController.m in Sources */,
 				8C6D21771FEA5C1D00FB7664 /* LRTranstionAnimationPush.m in Sources */,
@@ -337,6 +348,7 @@
 				8C5B004A1FDA6B3F003750BB /* GCDQueue.m in Sources */,
 				8C6D217A1FEA5C2900FB7664 /* LRTranstionAnimationPop.m in Sources */,
 				8C6D21741FEA5B5300FB7664 /* LRTransitionPopController.m in Sources */,
+				8CA4048B1FF10A20006143C1 /* LRGlowContentController.m in Sources */,
 				8C5B476E1FECBA7D00DDAF71 /* UIView+SetRect.m in Sources */,
 				8CD0F3C21FED07B4002B1758 /* LRChangeImageController.m in Sources */,
 				8C5B004F1FDA6D3C003750BB /* LRMixedColorProgressController.m in Sources */,
