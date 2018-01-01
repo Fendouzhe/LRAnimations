@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     UIImageView *imageView1 = [[UIImageView alloc] initWithFrame:self.view.bounds];
     imageView1.image        = [UIImage imageNamed:@"bg2"];
     [self.view addSubview:imageView1];
