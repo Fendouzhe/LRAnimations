@@ -41,6 +41,7 @@
 		8CD0F3BF1FED04EE002B1758 /* LRColorImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0F3BE1FED04EE002B1758 /* LRColorImageViewController.m */; };
 		8CD0F3C21FED07B4002B1758 /* LRChangeImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0F3C11FED07B4002B1758 /* LRChangeImageController.m */; };
 		A080F7301FEE253F00DBDB55 /* LREmitterSnowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A080F72F1FEE253F00DBDB55 /* LREmitterSnowController.m */; };
+		A0FA8F3B1FF9EB990095EB82 /* LRUnlockAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FA8F3A1FF9EB990095EB82 /* LRUnlockAnimationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +113,8 @@
 		8CD0F3C11FED07B4002B1758 /* LRChangeImageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRChangeImageController.m; sourceTree = "<group>"; };
 		A080F72E1FEE253F00DBDB55 /* LREmitterSnowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LREmitterSnowController.h; sourceTree = "<group>"; };
 		A080F72F1FEE253F00DBDB55 /* LREmitterSnowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LREmitterSnowController.m; sourceTree = "<group>"; };
+		A0FA8F391FF9EB990095EB82 /* LRUnlockAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRUnlockAnimationController.h; sourceTree = "<group>"; };
+		A0FA8F3A1FF9EB990095EB82 /* LRUnlockAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRUnlockAnimationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,8 @@
 				8CD0F3C11FED07B4002B1758 /* LRChangeImageController.m */,
 				A080F72E1FEE253F00DBDB55 /* LREmitterSnowController.h */,
 				A080F72F1FEE253F00DBDB55 /* LREmitterSnowController.m */,
+				A0FA8F391FF9EB990095EB82 /* LRUnlockAnimationController.h */,
+				A0FA8F3A1FF9EB990095EB82 /* LRUnlockAnimationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -332,6 +337,7 @@
 				8C5B00551FDA719D003750BB /* LRBaseViewController.m in Sources */,
 				8C5B477A1FECC22400DDAF71 /* LRMulticolorViewController.m in Sources */,
 				8C6D21711FEA5B3C00FB7664 /* LRTransitionPushController.m in Sources */,
+				A0FA8F3B1FF9EB990095EB82 /* LRUnlockAnimationController.m in Sources */,
 				8C6D21771FEA5C1D00FB7664 /* LRTranstionAnimationPush.m in Sources */,
 				8CB0C3471FD91A46009CB8A5 /* LRReplicatorLineController.m in Sources */,
 				8C5B004A1FDA6B3F003750BB /* GCDQueue.m in Sources */,

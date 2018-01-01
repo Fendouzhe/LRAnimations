@@ -20,6 +20,7 @@
 #import "LRColorImageViewController.h"
 #import "LRChangeImageController.h"
 #import "LREmitterSnowController.h"
+#import "LRUnlockAnimationController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -46,6 +47,7 @@
     [self.items addObject:[LRItem itemWithName:@"图片带色差动画" class:[LRColorImageViewController class]]];
     [self.items addObject:[LRItem itemWithName:@"带色差切换图片" class:[LRChangeImageController class]]];
     [self.items addObject:[LRItem itemWithName:@"粒子动画雪花效果" class:[LREmitterSnowController class]]];
+    [self.items addObject:[LRItem itemWithName:@"滑动解锁动画" class:[LRUnlockAnimationController class]]];
     //[self.items addObject:[LRItem itemWithName:@"线性重复动画" class:[LRReplicatorLineController class]]];
     
     
