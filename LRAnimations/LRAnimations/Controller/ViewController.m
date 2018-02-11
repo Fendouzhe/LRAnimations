@@ -20,11 +20,8 @@
 #import "LRColorImageViewController.h"
 #import "LRChangeImageController.h"
 #import "LREmitterSnowController.h"
-<<<<<<< HEAD
 #import "LRUnlockAnimationController.h"
-=======
 #import "LRGlowContentController.h"
->>>>>>> 4180fd74e8c859a4de654668de9d88541344bef8
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -51,11 +48,8 @@
     [self.items addObject:[LRItem itemWithName:@"图片带色差动画" class:[LRColorImageViewController class]]];
     [self.items addObject:[LRItem itemWithName:@"带色差切换图片" class:[LRChangeImageController class]]];
     [self.items addObject:[LRItem itemWithName:@"粒子动画雪花效果" class:[LREmitterSnowController class]]];
-<<<<<<< HEAD
     [self.items addObject:[LRItem itemWithName:@"滑动解锁动画" class:[LRUnlockAnimationController class]]];
-=======
     [self.items addObject:[LRItem itemWithName:@"带辉光的文字图片" class:[LRGlowContentController class]]];
->>>>>>> 4180fd74e8c859a4de654668de9d88541344bef8
     //[self.items addObject:[LRItem itemWithName:@"线性重复动画" class:[LRReplicatorLineController class]]];
     
     
