@@ -43,7 +43,7 @@
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    
+    ///设置代理不要放在viewDidLoad里面，否则代理方法- (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC；只执行一次
     self.navigationController.delegate = self;
     
     [self setupButtonAnimation];
