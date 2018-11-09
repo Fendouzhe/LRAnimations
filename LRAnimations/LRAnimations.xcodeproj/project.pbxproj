@@ -43,6 +43,8 @@
 		8CD0F3BF1FED04EE002B1758 /* LRColorImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0F3BE1FED04EE002B1758 /* LRColorImageViewController.m */; };
 		8CD0F3C21FED07B4002B1758 /* LRChangeImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0F3C11FED07B4002B1758 /* LRChangeImageController.m */; };
 		A080F7301FEE253F00DBDB55 /* LREmitterSnowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A080F72F1FEE253F00DBDB55 /* LREmitterSnowController.m */; };
+		A0EF9EB02195216800F901B7 /* LRWaterWaveController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EF9EAF2195216800F901B7 /* LRWaterWaveController.m */; };
+		A0EF9EB32195394A00F901B7 /* LRDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EF9EB22195394A00F901B7 /* LRDisplayLink.m */; };
 		A0FA8F3B1FF9EB990095EB82 /* LRUnlockAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FA8F3A1FF9EB990095EB82 /* LRUnlockAnimationController.m */; };
 /* End PBXBuildFile section */
 
@@ -119,6 +121,10 @@
 		8CD0F3C11FED07B4002B1758 /* LRChangeImageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRChangeImageController.m; sourceTree = "<group>"; };
 		A080F72E1FEE253F00DBDB55 /* LREmitterSnowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LREmitterSnowController.h; sourceTree = "<group>"; };
 		A080F72F1FEE253F00DBDB55 /* LREmitterSnowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LREmitterSnowController.m; sourceTree = "<group>"; };
+		A0EF9EAE2195216800F901B7 /* LRWaterWaveController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRWaterWaveController.h; sourceTree = "<group>"; };
+		A0EF9EAF2195216800F901B7 /* LRWaterWaveController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRWaterWaveController.m; sourceTree = "<group>"; };
+		A0EF9EB12195394A00F901B7 /* LRDisplayLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRDisplayLink.h; sourceTree = "<group>"; };
+		A0EF9EB22195394A00F901B7 /* LRDisplayLink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRDisplayLink.m; sourceTree = "<group>"; };
 		A0FA8F391FF9EB990095EB82 /* LRUnlockAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRUnlockAnimationController.h; sourceTree = "<group>"; };
 		A0FA8F3A1FF9EB990095EB82 /* LRUnlockAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRUnlockAnimationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -171,6 +177,8 @@
 				A0FA8F3A1FF9EB990095EB82 /* LRUnlockAnimationController.m */,
 				8CA404891FF10A20006143C1 /* LRGlowContentController.h */,
 				8CA4048A1FF10A20006143C1 /* LRGlowContentController.m */,
+				A0EF9EAE2195216800F901B7 /* LRWaterWaveController.h */,
+				A0EF9EAF2195216800F901B7 /* LRWaterWaveController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -230,6 +238,8 @@
 				8C6D21791FEA5C2900FB7664 /* LRTranstionAnimationPop.m */,
 				8C7A69A01FEB95840043733F /* LRProgressColor.h */,
 				8C7A69A11FEB95840043733F /* LRProgressColor.m */,
+				A0EF9EB12195394A00F901B7 /* LRDisplayLink.h */,
+				A0EF9EB22195394A00F901B7 /* LRDisplayLink.m */,
 			);
 			path = Server;
 			sourceTree = "<group>";
@@ -343,6 +353,7 @@
 			files = (
 				8CD0F3BC1FED044A002B1758 /* LRColorUIImageView.m in Sources */,
 				8C5B47771FECC11F00DDAF71 /* LRMulticolorView.m in Sources */,
+				A0EF9EB02195216800F901B7 /* LRWaterWaveController.m in Sources */,
 				8C5B004C1FDA6B3F003750BB /* GCDTimer.m in Sources */,
 				8C5B00551FDA719D003750BB /* LRBaseViewController.m in Sources */,
 				8CA404881FF109B8006143C1 /* UIView+GlowView.m in Sources */,
@@ -356,6 +367,7 @@
 				8C6D21741FEA5B5300FB7664 /* LRTransitionPopController.m in Sources */,
 				8CA4048B1FF10A20006143C1 /* LRGlowContentController.m in Sources */,
 				8C5B476E1FECBA7D00DDAF71 /* UIView+SetRect.m in Sources */,
+				A0EF9EB32195394A00F901B7 /* LRDisplayLink.m in Sources */,
 				8CD0F3C21FED07B4002B1758 /* LRChangeImageController.m in Sources */,
 				8C5B004F1FDA6D3C003750BB /* LRMixedColorProgressController.m in Sources */,
 				8C5B004B1FDA6B3F003750BB /* GCDSemaphore.m in Sources */,

@@ -22,6 +22,7 @@
 #import "LREmitterSnowController.h"
 #import "LRUnlockAnimationController.h"
 #import "LRGlowContentController.h"
+#import "LRWaterWaveController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -50,6 +51,7 @@
     [self.items addObject:[LRItem itemWithName:@"粒子动画雪花效果" class:[LREmitterSnowController class]]];
     [self.items addObject:[LRItem itemWithName:@"滑动解锁动画" class:[LRUnlockAnimationController class]]];
     [self.items addObject:[LRItem itemWithName:@"带辉光的文字图片" class:[LRGlowContentController class]]];
+    [self.items addObject:[LRItem itemWithName:@"水波纹" class:[LRWaterWaveController class]]];
     //[self.items addObject:[LRItem itemWithName:@"线性重复动画" class:[LRReplicatorLineController class]]];
     
     
