@@ -23,6 +23,7 @@
 #import "LRUnlockAnimationController.h"
 #import "LRGlowContentController.h"
 #import "LRWaterWaveController.h"
+#import "LRDouYinLoadingController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -53,6 +54,7 @@
     [self.items addObject:[LRItem itemWithName:@"带辉光的文字图片" class:[LRGlowContentController class]]];
     [self.items addObject:[LRItem itemWithName:@"水波纹" class:[LRWaterWaveController class]]];
     //[self.items addObject:[LRItem itemWithName:@"线性重复动画" class:[LRReplicatorLineController class]]];
+    [self.items addObject:[LRItem itemWithName:@"抖音加载动画" class:[LRDouYinLoadingController class]]];
     
     
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds];

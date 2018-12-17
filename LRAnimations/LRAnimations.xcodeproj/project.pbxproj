@@ -42,6 +42,8 @@
 		8CD0F3BC1FED044A002B1758 /* LRColorUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0F3BB1FED044A002B1758 /* LRColorUIImageView.m */; };
 		8CD0F3BF1FED04EE002B1758 /* LRColorImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0F3BE1FED04EE002B1758 /* LRColorImageViewController.m */; };
 		8CD0F3C21FED07B4002B1758 /* LRChangeImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0F3C11FED07B4002B1758 /* LRChangeImageController.m */; };
+		A0433CC121C79D63004509FF /* LRDouYinLoadingController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0433CC021C79D63004509FF /* LRDouYinLoadingController.m */; };
+		A0433CC421C79DD3004509FF /* LRDouYinLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = A0433CC321C79DD3004509FF /* LRDouYinLoading.m */; };
 		A080F7301FEE253F00DBDB55 /* LREmitterSnowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A080F72F1FEE253F00DBDB55 /* LREmitterSnowController.m */; };
 		A0EF9EB02195216800F901B7 /* LRWaterWaveController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EF9EAF2195216800F901B7 /* LRWaterWaveController.m */; };
 		A0EF9EB32195394A00F901B7 /* LRDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EF9EB22195394A00F901B7 /* LRDisplayLink.m */; };
@@ -119,6 +121,10 @@
 		8CD0F3BE1FED04EE002B1758 /* LRColorImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRColorImageViewController.m; sourceTree = "<group>"; };
 		8CD0F3C01FED07B4002B1758 /* LRChangeImageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRChangeImageController.h; sourceTree = "<group>"; };
 		8CD0F3C11FED07B4002B1758 /* LRChangeImageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRChangeImageController.m; sourceTree = "<group>"; };
+		A0433CBF21C79D63004509FF /* LRDouYinLoadingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRDouYinLoadingController.h; sourceTree = "<group>"; };
+		A0433CC021C79D63004509FF /* LRDouYinLoadingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRDouYinLoadingController.m; sourceTree = "<group>"; };
+		A0433CC221C79DD3004509FF /* LRDouYinLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDouYinLoading.h; sourceTree = "<group>"; };
+		A0433CC321C79DD3004509FF /* LRDouYinLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDouYinLoading.m; sourceTree = "<group>"; };
 		A080F72E1FEE253F00DBDB55 /* LREmitterSnowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LREmitterSnowController.h; sourceTree = "<group>"; };
 		A080F72F1FEE253F00DBDB55 /* LREmitterSnowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LREmitterSnowController.m; sourceTree = "<group>"; };
 		A0EF9EAE2195216800F901B7 /* LRWaterWaveController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRWaterWaveController.h; sourceTree = "<group>"; };
@@ -179,6 +185,8 @@
 				8CA4048A1FF10A20006143C1 /* LRGlowContentController.m */,
 				A0EF9EAE2195216800F901B7 /* LRWaterWaveController.h */,
 				A0EF9EAF2195216800F901B7 /* LRWaterWaveController.m */,
+				A0433CBF21C79D63004509FF /* LRDouYinLoadingController.h */,
+				A0433CC021C79D63004509FF /* LRDouYinLoadingController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -186,6 +194,8 @@
 		8C48609E1FDE75C3006C346C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A0433CC221C79DD3004509FF /* LRDouYinLoading.h */,
+				A0433CC321C79DD3004509FF /* LRDouYinLoading.m */,
 				8C4860951FDE64AE006C346C /* LRFadeView.h */,
 				8C4860961FDE64AE006C346C /* LRFadeView.m */,
 				8C48609F1FDE762C006C346C /* LRShineLabel.h */,
@@ -371,6 +381,7 @@
 				8CD0F3C21FED07B4002B1758 /* LRChangeImageController.m in Sources */,
 				8C5B004F1FDA6D3C003750BB /* LRMixedColorProgressController.m in Sources */,
 				8C5B004B1FDA6B3F003750BB /* GCDSemaphore.m in Sources */,
+				A0433CC421C79DD3004509FF /* LRDouYinLoading.m in Sources */,
 				8C7A69A51FEB99B10043733F /* LRColorProgressController.m in Sources */,
 				8CB0C33C1FD91991009CB8A5 /* main.m in Sources */,
 				8CD0F3BF1FED04EE002B1758 /* LRColorImageViewController.m in Sources */,
@@ -387,6 +398,7 @@
 				8CB0C32E1FD91991009CB8A5 /* AppDelegate.m in Sources */,
 				8C7A69A21FEB95840043733F /* LRProgressColor.m in Sources */,
 				8C5B47741FECBAE000DDAF71 /* ViewController.m in Sources */,
+				A0433CC121C79D63004509FF /* LRDouYinLoadingController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

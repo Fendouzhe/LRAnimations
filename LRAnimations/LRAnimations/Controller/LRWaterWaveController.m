@@ -46,10 +46,13 @@
     _waterWaveHight = _waterWaveLayer.frame.size.height;
     
     _waterAmplitude = 15.f;
-    //假设在frame的长度上出现3个完整的波形:注意这里乘以0.5出现震荡效果,如果不乘以0.5只会出现波形平移的效果。
+    /*
+     假设在frame的长度上出现3个完整的波形:注意这里乘以0.5出现震荡效果,如果不乘以0.5只会出现波形平移的效果。
+     让波峰或者波谷的点不能在_waterWaveLayer的边缘，否则会出现波形平移的效果，而不是水波移动效果
+     */
     _waterFrequency = 2*M_PI*3/_waterWaveWidth*0.5;
     _waterEpoch = 0.f;
-    _waterSetover = 20.f;
+    _waterSetover = 200.f;
     
     __weak typeof(self) weakSelf = self;
     _link = [LRDisplayLink displayLinkWithTarget:self mode:NSRunLoopCommonModes event:^{
