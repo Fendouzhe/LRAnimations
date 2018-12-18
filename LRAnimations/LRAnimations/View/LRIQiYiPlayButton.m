@@ -49,7 +49,7 @@ static CGFloat positionDuration = 0.3f;
 }
 
 - (void)buildUI{
-    self.playState = LRIQiYiPlayButtonStatePause;
+    //self.playState = LRIQiYiPlayButtonStatePause;
     [self addTriangleLayer];
     [self addLeftLineLayer];
     [self addRightLineLayer];
