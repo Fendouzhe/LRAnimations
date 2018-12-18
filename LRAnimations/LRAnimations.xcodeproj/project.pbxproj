@@ -44,6 +44,9 @@
 		8CD0F3C21FED07B4002B1758 /* LRChangeImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0F3C11FED07B4002B1758 /* LRChangeImageController.m */; };
 		A0433CC121C79D63004509FF /* LRDouYinLoadingController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0433CC021C79D63004509FF /* LRDouYinLoadingController.m */; };
 		A0433CC421C79DD3004509FF /* LRDouYinLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = A0433CC321C79DD3004509FF /* LRDouYinLoading.m */; };
+		A05A5E2121C8FEDF00D57D7E /* LRYouKuPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A05A5E1F21C8FEDF00D57D7E /* LRYouKuPlayButton.m */; };
+		A05A5E2221C8FEDF00D57D7E /* LRIQiYiPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A05A5E2021C8FEDF00D57D7E /* LRIQiYiPlayButton.m */; };
+		A05A5E2521C8FF0300D57D7E /* LRPlayButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05A5E2421C8FF0300D57D7E /* LRPlayButtonController.m */; };
 		A080F7301FEE253F00DBDB55 /* LREmitterSnowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A080F72F1FEE253F00DBDB55 /* LREmitterSnowController.m */; };
 		A0EF9EB02195216800F901B7 /* LRWaterWaveController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EF9EAF2195216800F901B7 /* LRWaterWaveController.m */; };
 		A0EF9EB32195394A00F901B7 /* LRDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EF9EB22195394A00F901B7 /* LRDisplayLink.m */; };
@@ -125,6 +128,12 @@
 		A0433CC021C79D63004509FF /* LRDouYinLoadingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRDouYinLoadingController.m; sourceTree = "<group>"; };
 		A0433CC221C79DD3004509FF /* LRDouYinLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDouYinLoading.h; sourceTree = "<group>"; };
 		A0433CC321C79DD3004509FF /* LRDouYinLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDouYinLoading.m; sourceTree = "<group>"; };
+		A05A5E1D21C8FEDE00D57D7E /* LRIQiYiPlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRIQiYiPlayButton.h; sourceTree = "<group>"; };
+		A05A5E1E21C8FEDE00D57D7E /* LRYouKuPlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRYouKuPlayButton.h; sourceTree = "<group>"; };
+		A05A5E1F21C8FEDF00D57D7E /* LRYouKuPlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRYouKuPlayButton.m; sourceTree = "<group>"; };
+		A05A5E2021C8FEDF00D57D7E /* LRIQiYiPlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRIQiYiPlayButton.m; sourceTree = "<group>"; };
+		A05A5E2321C8FF0300D57D7E /* LRPlayButtonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRPlayButtonController.h; sourceTree = "<group>"; };
+		A05A5E2421C8FF0300D57D7E /* LRPlayButtonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRPlayButtonController.m; sourceTree = "<group>"; };
 		A080F72E1FEE253F00DBDB55 /* LREmitterSnowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LREmitterSnowController.h; sourceTree = "<group>"; };
 		A080F72F1FEE253F00DBDB55 /* LREmitterSnowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LREmitterSnowController.m; sourceTree = "<group>"; };
 		A0EF9EAE2195216800F901B7 /* LRWaterWaveController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRWaterWaveController.h; sourceTree = "<group>"; };
@@ -187,6 +196,8 @@
 				A0EF9EAF2195216800F901B7 /* LRWaterWaveController.m */,
 				A0433CBF21C79D63004509FF /* LRDouYinLoadingController.h */,
 				A0433CC021C79D63004509FF /* LRDouYinLoadingController.m */,
+				A05A5E2321C8FF0300D57D7E /* LRPlayButtonController.h */,
+				A05A5E2421C8FF0300D57D7E /* LRPlayButtonController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -194,6 +205,10 @@
 		8C48609E1FDE75C3006C346C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A05A5E1D21C8FEDE00D57D7E /* LRIQiYiPlayButton.h */,
+				A05A5E2021C8FEDF00D57D7E /* LRIQiYiPlayButton.m */,
+				A05A5E1E21C8FEDE00D57D7E /* LRYouKuPlayButton.h */,
+				A05A5E1F21C8FEDF00D57D7E /* LRYouKuPlayButton.m */,
 				A0433CC221C79DD3004509FF /* LRDouYinLoading.h */,
 				A0433CC321C79DD3004509FF /* LRDouYinLoading.m */,
 				8C4860951FDE64AE006C346C /* LRFadeView.h */,
@@ -380,6 +395,7 @@
 				A0EF9EB32195394A00F901B7 /* LRDisplayLink.m in Sources */,
 				8CD0F3C21FED07B4002B1758 /* LRChangeImageController.m in Sources */,
 				8C5B004F1FDA6D3C003750BB /* LRMixedColorProgressController.m in Sources */,
+				A05A5E2221C8FEDF00D57D7E /* LRIQiYiPlayButton.m in Sources */,
 				8C5B004B1FDA6B3F003750BB /* GCDSemaphore.m in Sources */,
 				A0433CC421C79DD3004509FF /* LRDouYinLoading.m in Sources */,
 				8C7A69A51FEB99B10043733F /* LRColorProgressController.m in Sources */,
@@ -390,6 +406,8 @@
 				8C4860971FDE64AE006C346C /* LRFadeView.m in Sources */,
 				8C48609D1FDE75BC006C346C /* LRShineLabelController.m in Sources */,
 				8C5B00491FDA6B3F003750BB /* GCDGroup.m in Sources */,
+				A05A5E2521C8FF0300D57D7E /* LRPlayButtonController.m in Sources */,
+				A05A5E2121C8FEDF00D57D7E /* LRYouKuPlayButton.m in Sources */,
 				8C5B47711FECBA9000DDAF71 /* LRItem.m in Sources */,
 				A080F7301FEE253F00DBDB55 /* LREmitterSnowController.m in Sources */,
 				8C48609A1FDE686E006C346C /* LRFadeViewController.m in Sources */,

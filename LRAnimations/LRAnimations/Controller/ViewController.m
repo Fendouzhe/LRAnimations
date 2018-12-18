@@ -24,6 +24,7 @@
 #import "LRGlowContentController.h"
 #import "LRWaterWaveController.h"
 #import "LRDouYinLoadingController.h"
+#import "LRPlayButtonController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -55,6 +56,7 @@
     [self.items addObject:[LRItem itemWithName:@"水波纹" class:[LRWaterWaveController class]]];
     //[self.items addObject:[LRItem itemWithName:@"线性重复动画" class:[LRReplicatorLineController class]]];
     [self.items addObject:[LRItem itemWithName:@"抖音加载动画" class:[LRDouYinLoadingController class]]];
+    [self.items addObject:[LRItem itemWithName:@"优酷爱奇艺播放按钮" class:[LRPlayButtonController class]]];
     
     
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
