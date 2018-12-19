@@ -57,7 +57,7 @@ static CGFloat positionDuration = 0.3f;
 }
 
 - (void)addTriangleLayer{
-    CGFloat width = self.layer.bounds.size.width;
+    CGFloat width = self.bounds.size.width;
     UIBezierPath *path = [UIBezierPath bezierPath];
     [path moveToPoint:CGPointMake(width*0.2, width*0.2)];
     [path addLineToPoint:CGPointMake(width*0.2, 0)];
@@ -78,7 +78,7 @@ static CGFloat positionDuration = 0.3f;
 }
 
 - (void)addLeftLineLayer{
-    CGFloat width = self.layer.bounds.size.width;
+    CGFloat width = self.bounds.size.width;
     UIBezierPath *path = [UIBezierPath bezierPath];
     [path moveToPoint:CGPointMake(width*0.2, 0)];
     [path addLineToPoint:CGPointMake(width*0.2, width)];
@@ -94,7 +94,7 @@ static CGFloat positionDuration = 0.3f;
 }
 
 - (void)addRightLineLayer{
-    CGFloat width = self.layer.bounds.size.width;
+    CGFloat width = self.bounds.size.width;
     UIBezierPath *path = [UIBezierPath bezierPath];
     [path moveToPoint:CGPointMake(width*0.8, width)];
     [path addLineToPoint:CGPointMake(width*0.8, 0)];
@@ -110,7 +110,7 @@ static CGFloat positionDuration = 0.3f;
 }
 
 - (void)addCircleLayer{
-    CGFloat width = self.layer.bounds.size.width;
+    CGFloat width = self.bounds.size.width;
     UIBezierPath *path = [UIBezierPath bezierPath];
     [path moveToPoint:CGPointMake(width*0.8, width*0.8)];
     [path addArcWithCenter:CGPointMake(width*0.5, width*0.8) radius:(width-0.2*width*2)*0.5 startAngle:0 endAngle:M_PI clockwise:YES];
@@ -167,7 +167,7 @@ static CGFloat positionDuration = 0.3f;
     });
 
     //开始左侧线条缩短动画
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(animationDuration*0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(animationDuration*0.75 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         //开始右侧线条动画
         [self strokeEndAnimationWithLayer:_rightLine from:0 to:1 name:RightLineAnimation duration:animationDuration/4 delegate:self];
         //开始画弧动画
@@ -226,7 +226,7 @@ static CGFloat positionDuration = 0.3f;
 #pragma mark -- 竖线动画 --
 //暂停->播放竖线动画
 - (void)linePositiveAniamtion{
-    CGFloat width = self.layer.bounds.size.width;
+    CGFloat width = self.bounds.size.width;
     
     UIBezierPath *leftPath1 = [UIBezierPath bezierPath];
     [leftPath1 moveToPoint:CGPointMake(width*0.2, width*0.4)];
@@ -260,7 +260,7 @@ static CGFloat positionDuration = 0.3f;
 
 //播放->暂停竖线动画
 - (void)lineInverseAniamtion{
-    CGFloat width = self.layer.bounds.size.width;
+    CGFloat width = self.bounds.size.width;
     
     UIBezierPath *leftPath1 = [UIBezierPath bezierPath];
     [leftPath1 moveToPoint:CGPointMake(width*0.2, width*0.4)];
