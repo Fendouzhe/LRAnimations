@@ -48,6 +48,9 @@
 		A05A5E2221C8FEDF00D57D7E /* LRIQiYiPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A05A5E2021C8FEDF00D57D7E /* LRIQiYiPlayButton.m */; };
 		A05A5E2521C8FF0300D57D7E /* LRPlayButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05A5E2421C8FF0300D57D7E /* LRPlayButtonController.m */; };
 		A080F7301FEE253F00DBDB55 /* LREmitterSnowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A080F72F1FEE253F00DBDB55 /* LREmitterSnowController.m */; };
+		A0AD5D5721D5DEC800E53CE0 /* LRPaymentLoadingHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AD5D5321D5DEC800E53CE0 /* LRPaymentLoadingHUD.m */; };
+		A0AD5D5821D5DEC800E53CE0 /* LRPaymentSuccessHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AD5D5421D5DEC800E53CE0 /* LRPaymentSuccessHUD.m */; };
+		A0AD5D5B21D5DF0900E53CE0 /* LRPaymentHUDController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AD5D5A21D5DF0900E53CE0 /* LRPaymentHUDController.m */; };
 		A0EF9EB02195216800F901B7 /* LRWaterWaveController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EF9EAF2195216800F901B7 /* LRWaterWaveController.m */; };
 		A0EF9EB32195394A00F901B7 /* LRDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EF9EB22195394A00F901B7 /* LRDisplayLink.m */; };
 		A0FA8F3B1FF9EB990095EB82 /* LRUnlockAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FA8F3A1FF9EB990095EB82 /* LRUnlockAnimationController.m */; };
@@ -136,6 +139,12 @@
 		A05A5E2421C8FF0300D57D7E /* LRPlayButtonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRPlayButtonController.m; sourceTree = "<group>"; };
 		A080F72E1FEE253F00DBDB55 /* LREmitterSnowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LREmitterSnowController.h; sourceTree = "<group>"; };
 		A080F72F1FEE253F00DBDB55 /* LREmitterSnowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LREmitterSnowController.m; sourceTree = "<group>"; };
+		A0AD5D5321D5DEC800E53CE0 /* LRPaymentLoadingHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRPaymentLoadingHUD.m; sourceTree = "<group>"; };
+		A0AD5D5421D5DEC800E53CE0 /* LRPaymentSuccessHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRPaymentSuccessHUD.m; sourceTree = "<group>"; };
+		A0AD5D5521D5DEC800E53CE0 /* LRPaymentSuccessHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRPaymentSuccessHUD.h; sourceTree = "<group>"; };
+		A0AD5D5621D5DEC800E53CE0 /* LRPaymentLoadingHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRPaymentLoadingHUD.h; sourceTree = "<group>"; };
+		A0AD5D5921D5DF0900E53CE0 /* LRPaymentHUDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRPaymentHUDController.h; sourceTree = "<group>"; };
+		A0AD5D5A21D5DF0900E53CE0 /* LRPaymentHUDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRPaymentHUDController.m; sourceTree = "<group>"; };
 		A0EF9EAE2195216800F901B7 /* LRWaterWaveController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRWaterWaveController.h; sourceTree = "<group>"; };
 		A0EF9EAF2195216800F901B7 /* LRWaterWaveController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRWaterWaveController.m; sourceTree = "<group>"; };
 		A0EF9EB12195394A00F901B7 /* LRDisplayLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRDisplayLink.h; sourceTree = "<group>"; };
@@ -198,6 +207,8 @@
 				A0433CC021C79D63004509FF /* LRDouYinLoadingController.m */,
 				A05A5E2321C8FF0300D57D7E /* LRPlayButtonController.h */,
 				A05A5E2421C8FF0300D57D7E /* LRPlayButtonController.m */,
+				A0AD5D5921D5DF0900E53CE0 /* LRPaymentHUDController.h */,
+				A0AD5D5A21D5DF0900E53CE0 /* LRPaymentHUDController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -205,6 +216,7 @@
 		8C48609E1FDE75C3006C346C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A0AD5D5221D5DEC800E53CE0 /* LRPayment */,
 				A05A5E1D21C8FEDE00D57D7E /* LRIQiYiPlayButton.h */,
 				A05A5E2021C8FEDF00D57D7E /* LRIQiYiPlayButton.m */,
 				A05A5E1E21C8FEDE00D57D7E /* LRYouKuPlayButton.h */,
@@ -303,6 +315,17 @@
 				8CB0C3481FD9226C009CB8A5 /* PrefixHeader.pch */,
 			);
 			path = LRAnimations;
+			sourceTree = "<group>";
+		};
+		A0AD5D5221D5DEC800E53CE0 /* LRPayment */ = {
+			isa = PBXGroup;
+			children = (
+				A0AD5D5621D5DEC800E53CE0 /* LRPaymentLoadingHUD.h */,
+				A0AD5D5321D5DEC800E53CE0 /* LRPaymentLoadingHUD.m */,
+				A0AD5D5521D5DEC800E53CE0 /* LRPaymentSuccessHUD.h */,
+				A0AD5D5421D5DEC800E53CE0 /* LRPaymentSuccessHUD.m */,
+			);
+			path = LRPayment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,9 +435,12 @@
 				A080F7301FEE253F00DBDB55 /* LREmitterSnowController.m in Sources */,
 				8C48609A1FDE686E006C346C /* LRFadeViewController.m in Sources */,
 				8C4860A11FDE762C006C346C /* LRShineLabel.m in Sources */,
+				A0AD5D5B21D5DF0900E53CE0 /* LRPaymentHUDController.m in Sources */,
 				8C7A69AB1FEBA1510043733F /* LRColorFullProgressView.m in Sources */,
+				A0AD5D5721D5DEC800E53CE0 /* LRPaymentLoadingHUD.m in Sources */,
 				8CB0C32E1FD91991009CB8A5 /* AppDelegate.m in Sources */,
 				8C7A69A21FEB95840043733F /* LRProgressColor.m in Sources */,
+				A0AD5D5821D5DEC800E53CE0 /* LRPaymentSuccessHUD.m in Sources */,
 				8C5B47741FECBAE000DDAF71 /* ViewController.m in Sources */,
 				A0433CC121C79D63004509FF /* LRDouYinLoadingController.m in Sources */,
 			);
